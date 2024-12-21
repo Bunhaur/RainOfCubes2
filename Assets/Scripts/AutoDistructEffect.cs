@@ -20,7 +20,6 @@ public class AutoDistructEffect : MonoBehaviour
     private IEnumerator DestroyAfterTime()
     {
         float time = _particleSystem.main.duration;
-        print(time);
         WaitForSeconds delay = new WaitForSeconds(time);
 
         yield return delay;

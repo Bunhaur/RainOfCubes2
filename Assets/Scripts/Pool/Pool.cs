@@ -17,7 +17,7 @@ public abstract class Pool<T> : MonoBehaviour where T : PoolObject<T>
     public event Action<int> ActiveChanged;
 
 
-    private void Awake()
+    private void Start()
     {
         CreateObjects(_maxCapacity);
     }

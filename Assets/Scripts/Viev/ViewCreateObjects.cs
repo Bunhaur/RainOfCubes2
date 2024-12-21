@@ -1,4 +1,4 @@
-public class ViewCreaterObjects : ViewStats
+public class ViewCreateObjects : ViewStats
 {
     private void OnEnable()
     {
