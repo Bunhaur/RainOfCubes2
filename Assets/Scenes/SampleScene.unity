@@ -1611,7 +1611,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cdceba13d8652d48b55274245fb30a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NameViev: Spawned Objects
+  NameView: Spawned Objects
   Cubes: {fileID: 424824951}
   Bombs: {fileID: 951558319}
 --- !u!1 &1256900618
@@ -2276,7 +2276,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ace7fcb4518777f4889f1d0b2effd7f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NameViev: Active Objects
+  NameView: Active Objects
   Cubes: {fileID: 424824951}
   Bombs: {fileID: 951558319}
 --- !u!1 &1798914035
@@ -2537,7 +2537,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29654cc0435105d4793380342e307fdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NameViev: Created Objects
+  NameView: Created Objects
   Cubes: {fileID: 424824951}
   Bombs: {fileID: 951558319}
 --- !u!1 &2006571168
