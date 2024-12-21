@@ -161,6 +161,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5133bb6d7e787914eb4f0902bef27408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _effect: {fileID: 198681264470032530, guid: 395fa1bcbfdb7d048915b99ef57ebb7b, type: 3}
+  _effect: {fileID: 198681264470032530, guid: 832f47ede90414c4c9bb574f80584ec8, type: 3}
   _radius: 100
   _force: 500

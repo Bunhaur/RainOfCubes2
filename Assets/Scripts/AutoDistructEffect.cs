@@ -12,14 +12,15 @@ public class AutoDistructEffect : MonoBehaviour
         _particleSystem = GetComponent<ParticleSystem>();
     }
 
-    void OnEnable()
+    private void OnEnable()
     {
         _destroyAfterTimeWork = StartCoroutine(DestroyAfterTime());
     }
 
-    IEnumerator DestroyAfterTime()
+    private IEnumerator DestroyAfterTime()
     {
         float time = _particleSystem.main.duration;
+        print(time);
         WaitForSeconds delay = new WaitForSeconds(time);
 
         yield return delay;

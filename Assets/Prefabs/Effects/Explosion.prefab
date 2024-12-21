@@ -80536,7 +80536,7 @@ GameObject:
   - component: {fileID: 199223780631540688}
   - component: {fileID: 1759355634197158742}
   m_Layer: 0
-  m_Name: CFX2_WWExplosion_C 1
+  m_Name: Explosion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
