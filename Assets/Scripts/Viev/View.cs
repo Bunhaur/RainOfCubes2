@@ -9,7 +9,9 @@ public abstract class View<T> : MonoBehaviour where T : PoolObject<T>
 
     private void OnEnable()
     {
-        AddListeners();
+        Pool.Spawned += SpawnedObjects.Show;
+        Pool.Created += CreatedObjects.Show;
+        Pool.ActiveChanged += ActivedObjjects.Show;
     }
 
     private void OnDisable()
@@ -17,12 +19,5 @@ public abstract class View<T> : MonoBehaviour where T : PoolObject<T>
         Pool.Spawned -= SpawnedObjects.Show;
         Pool.Created -= CreatedObjects.Show;
         Pool.ActiveChanged -= ActivedObjjects.Show;
-    }
-
-    private void AddListeners()
-    {
-        Pool.Spawned += SpawnedObjects.Show;
-        Pool.Created += CreatedObjects.Show;
-        Pool.ActiveChanged += ActivedObjjects.Show;
     }
 }
