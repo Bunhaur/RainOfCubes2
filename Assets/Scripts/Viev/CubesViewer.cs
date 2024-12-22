@@ -1,2 +1,1 @@
-public class CubesViewer : View<Cube>
-{}
+public class CubesViewer : View<Cube>{}
