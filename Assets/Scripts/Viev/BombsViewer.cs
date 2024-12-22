@@ -1,0 +1,1 @@
+public class BombsViewer : View<Bomb>{}

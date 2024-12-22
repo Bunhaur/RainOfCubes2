@@ -147,4 +147,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _minLifeTime: 2
-  _maxLifeTime: 6
+  _maxLifeTime: 5
